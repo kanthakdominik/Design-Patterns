@@ -4,6 +4,9 @@ import pl.kanthak.factory.Dialog;
 import pl.kanthak.factory.HtmlDialog;
 import pl.kanthak.factory.WindowsDialog;
 
+/**
+ * Demo class. Everything comes together here.
+ */
 public class Demo {
 
     private static Dialog dialog;
@@ -13,8 +16,10 @@ public class Demo {
         runBusinessLogic();
     }
 
-    // Aplikacja wybiera typ kreatora na podstawie bieżącej
-    // konfiguracji lub zmiennych środowiskowych.
+    /**
+     * The concrete factory is usually chosen depending on configuration or
+     * environment options.
+     */
     static void configure() {
         if (System.getProperty("os.name").equals("Windows 10")) {
             dialog = new WindowsDialog();
@@ -22,12 +27,12 @@ public class Demo {
             dialog = new HtmlDialog();
         }
     }
-
-    // Kod kliencki współpracuje z instancją konkretnego twórcy
-    // za pośrednictwem interfejsu bazowego. Tak długo jak
-    // klient będzie współpracował z kreatorem za pośrednictwem
-    // interfejsu bazowego, można będzie mu przekazywać dowolną
-    // podklasę twórcy.
+    
+    /**
+     * All of the client code should work with factories and products through
+     * abstract interfaces. This way it does not care which factory it works
+     * with and what kind of product it returns.
+     */
     static void runBusinessLogic() {
         dialog.renderWindow();
     }

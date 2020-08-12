@@ -5,15 +5,15 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-// Konkretne produkty posiadają różne implementacje interfejsu
-// produktu.
+/**
+ * Windows button implementation.
+ */
 public class WindowsButton implements Button {
 
     JPanel panel = new JPanel();
     JFrame frame = new JFrame();
     JButton button;
 
-    // Renderuj przycisk w stylu Windows.
     public void render() {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JLabel label = new JLabel("Hello World!");
@@ -32,8 +32,6 @@ public class WindowsButton implements Button {
         onClick();
     }
 
-    // Powiąż z wbudowanym w system operacyjny zdarzeniem
-    // kliknięcia
     public void onClick() {
         button = new JButton("Exit");
         button.addActionListener(new ActionListener() {
