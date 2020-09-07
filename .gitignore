@@ -35,3 +35,19 @@ Abstract Factory/out/production/Abstract Factory/pl/kanthak/checkboxes/WindowsCh
 Abstract Factory/out/production/Abstract Factory/pl/kanthak/factories/GUIFactory.class
 Abstract Factory/out/production/Abstract Factory/pl/kanthak/factories/MacOSFactory.class
 Abstract Factory/out/production/Abstract Factory/pl/kanthak/factories/WindowsFactory.class
+Singleton/out/production/Singleton/pl/kanthak/DemoMultiThread$Thread1.class
+Singleton/out/production/Singleton/pl/kanthak/DemoMultiThread$Thread2.class
+Singleton/out/production/Singleton/pl/kanthak/DemoMultiThread.class
+Singleton/out/production/Singleton/pl/kanthak/DemoSingleThread.class
+Singleton/out/production/Singleton/pl/kanthak/Main.class
+Singleton/out/production/Singleton/pl/kanthak/MultiThreadSingleton.class
+Singleton/out/production/Singleton/pl/kanthak/OneThreadSingleton.class
+Singleton/.idea/.gitignore
+Singleton/.idea/description.html
+Singleton/.idea/encodings.xml
+Singleton/.idea/misc.xml
+Singleton/.idea/modules.xml
+Singleton/.idea/project-template.xml
+Singleton/.idea/uiDesigner.xml
+Singleton/.idea/vcs.xml
+Singleton/Singleton.iml
