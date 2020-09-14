@@ -71,3 +71,15 @@ Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/Main.class
 Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/MultiThreadSingleton.class
 Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/OneThreadSingleton.class
 Creational Patterns/Singleton/Singleton.iml
+Creational Patterns/Prototype/Prototype.iml
+Creational Patterns/Prototype/.idea/.gitignore
+Creational Patterns/Prototype/.idea/description.html
+Creational Patterns/Prototype/.idea/encodings.xml
+Creational Patterns/Prototype/.idea/misc.xml
+Creational Patterns/Prototype/.idea/modules.xml
+Creational Patterns/Prototype/.idea/project-template.xml
+Creational Patterns/Prototype/.idea/vcs.xml
+Creational Patterns/Prototype/out/production/Prototype/pl/kanthak/Main.class
+Creational Patterns/Prototype/out/production/Prototype/pl/kanthak/shapes/Circle.class
+Creational Patterns/Prototype/out/production/Prototype/pl/kanthak/shapes/Rectangle.class
+Creational Patterns/Prototype/out/production/Prototype/pl/kanthak/shapes/Shape.class
