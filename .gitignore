@@ -1,85 +1,84 @@
-Creational Patterns/Abstract Factory/.idea/.gitignore
-Creational Patterns/Abstract Factory/.idea/description.html
-Creational Patterns/Abstract Factory/.idea/encodings.xml
-Creational Patterns/Abstract Factory/.idea/misc.xml
-Creational Patterns/Abstract Factory/.idea/modules.xml
-Creational Patterns/Abstract Factory/.idea/project-template.xml
-Creational Patterns/Abstract Factory/.idea/uiDesigner.xml
-Creational Patterns/Abstract Factory/.idea/vcs.xml
-Creational Patterns/Abstract Factory/Abstract Factory.iml
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/Demo.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/app/Application.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/buttons/Button.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/buttons/MacOSButton.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/buttons/WindowsButton.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/checkboxes/Checkbox.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/checkboxes/MacOSCheckbox.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/checkboxes/WindowsCheckbox.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/factories/GUIFactory.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/factories/MacOSFactory.class
-Creational Patterns/Abstract Factory/out/production/Abstract Factory/pl/kanthak/factories/WindowsFactory.class
-Creational Patterns/Builder/.idea/.gitignore
-Creational Patterns/Builder/.idea/description.html
-Creational Patterns/Builder/.idea/encodings.xml
-Creational Patterns/Builder/.idea/misc.xml
-Creational Patterns/Builder/.idea/modules.xml
-Creational Patterns/Builder/.idea/project-template.xml
-Creational Patterns/Builder/.idea/vcs.xml
-Creational Patterns/Builder/Builder.iml
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/Main.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/builders/Builder.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/builders/CarBuilder.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/builders/CarManualBuilder.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/cars/Car.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/cars/Manual.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/cars/Type.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/components/Engine.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/components/GPSNavigator.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/components/Transmission.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/components/TripComputer.class
-Creational Patterns/Builder/out/production/Builder/pl/kanthak/director/Director.class
-Creational Patterns/Factory Method/.idea/.gitignore
-Creational Patterns/Factory Method/.idea/description.html
-Creational Patterns/Factory Method/.idea/encodings.xml
-Creational Patterns/Factory Method/.idea/misc.xml
-Creational Patterns/Factory Method/.idea/modules.xml
-Creational Patterns/Factory Method/.idea/project-template.xml
-Creational Patterns/Factory Method/.idea/uiDesigner.xml
-Creational Patterns/Factory Method/.idea/vcs.xml
-Creational Patterns/Factory Method/Factory Method.iml
-Creational Patterns/Factory Method/out/production/Factory Method/pl/kanthak/Demo.class
-Creational Patterns/Factory Method/out/production/Factory Method/pl/kanthak/buttons/Button.class
-Creational Patterns/Factory Method/out/production/Factory Method/pl/kanthak/buttons/HtmlButton.class
-Creational Patterns/Factory Method/out/production/Factory Method/pl/kanthak/buttons/WindowsButton$1.class
-Creational Patterns/Factory Method/out/production/Factory Method/pl/kanthak/buttons/WindowsButton.class
-Creational Patterns/Factory Method/out/production/Factory Method/pl/kanthak/factory/Dialog.class
-Creational Patterns/Factory Method/out/production/Factory Method/pl/kanthak/factory/HtmlDialog.class
-Creational Patterns/Factory Method/out/production/Factory Method/pl/kanthak/factory/WindowsDialog.class
-Creational Patterns/Singleton/.idea/.gitignore
-Creational Patterns/Singleton/.idea/description.html
-Creational Patterns/Singleton/.idea/encodings.xml
-Creational Patterns/Singleton/.idea/misc.xml
-Creational Patterns/Singleton/.idea/modules.xml
-Creational Patterns/Singleton/.idea/project-template.xml
-Creational Patterns/Singleton/.idea/uiDesigner.xml
-Creational Patterns/Singleton/.idea/vcs.xml
-Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/DemoMultiThread$Thread1.class
-Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/DemoMultiThread$Thread2.class
-Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/DemoMultiThread.class
-Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/DemoSingleThread.class
-Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/Main.class
-Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/MultiThreadSingleton.class
-Creational Patterns/Singleton/out/production/Singleton/pl/kanthak/OneThreadSingleton.class
-Creational Patterns/Singleton/Singleton.iml
-Creational Patterns/Prototype/Prototype.iml
-Creational Patterns/Prototype/.idea/.gitignore
-Creational Patterns/Prototype/.idea/description.html
-Creational Patterns/Prototype/.idea/encodings.xml
-Creational Patterns/Prototype/.idea/misc.xml
-Creational Patterns/Prototype/.idea/modules.xml
-Creational Patterns/Prototype/.idea/project-template.xml
-Creational Patterns/Prototype/.idea/vcs.xml
-Creational Patterns/Prototype/out/production/Prototype/pl/kanthak/Main.class
-Creational Patterns/Prototype/out/production/Prototype/pl/kanthak/shapes/Circle.class
-Creational Patterns/Prototype/out/production/Prototype/pl/kanthak/shapes/Rectangle.class
-Creational Patterns/Prototype/out/production/Prototype/pl/kanthak/shapes/Shape.class
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+## Gradle
+##############################
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+##############################
+## NetBeans
+##############################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+##############################
+## Visual Studio Code
+##############################
+.vscode/
+.code-workspace
+
+##############################
+## OS X
+##############################
+.DS_Store
