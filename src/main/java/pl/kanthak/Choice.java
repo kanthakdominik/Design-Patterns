@@ -5,6 +5,7 @@ import pl.kanthak.CreationalPatterns.Builder.BuilderDemo;
 import pl.kanthak.CreationalPatterns.FactoryMethod.FactoryMethodDemo;
 import pl.kanthak.CreationalPatterns.Prototype.PrototypeDemo;
 import pl.kanthak.CreationalPatterns.Singleton.SingletonDemo;
+import pl.kanthak.StructuralPatterns.Adapter.AdapterDemo;
 
 import java.util.Scanner;
 
@@ -34,7 +35,7 @@ public class Choice {
             case "14" -> chosenPattern = new PrototypeDemo();
             case "15" -> chosenPattern = new SingletonDemo();
 
-            case "21" -> chosenPattern = new AbstractFactoryDemo();
+            case "21" -> chosenPattern = new AdapterDemo();
             case "22" -> chosenPattern = new AbstractFactoryDemo();
             case "23" -> chosenPattern = new AbstractFactoryDemo();
             case "24" -> chosenPattern = new AbstractFactoryDemo();
@@ -56,8 +57,8 @@ public class Choice {
     private void displaySubMenu(String patternType) throws Exception {
         switch (patternType) {
             case "1" -> System.out.println(menuContent.getCreationalSubMenu());
-            case "2" -> System.out.println(menuContent.getBehavioralSubMenu());
-            case "3" -> System.out.println(menuContent.getStructuralSubMenu());
+            case "2" -> System.out.println(menuContent.getStructuralSubMenu());
+            case "3" -> System.out.println(menuContent.getBehavioralSubMenu());
             default -> throw new Exception("There is no such pattern type");
         }
     }
