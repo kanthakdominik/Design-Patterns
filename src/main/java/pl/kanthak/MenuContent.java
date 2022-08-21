@@ -26,7 +26,7 @@ public class MenuContent {
         return """
                     Enter Structural Pattern:
                         1.Adapter
-                        2.asdf
+                        2.Bridge
                         3.asdf
                         4.asdf
                         5.asdf
