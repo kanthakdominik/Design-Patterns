@@ -7,6 +7,7 @@ import pl.kanthak.CreationalPatterns.Prototype.PrototypeDemo;
 import pl.kanthak.CreationalPatterns.Singleton.SingletonDemo;
 import pl.kanthak.StructuralPatterns.Adapter.AdapterDemo;
 import pl.kanthak.StructuralPatterns.Bridge.BridgeDemo;
+import pl.kanthak.StructuralPatterns.Composite.CompositeDemo;
 
 import java.util.Scanner;
 
@@ -38,7 +39,7 @@ public class Choice {
 
             case "21" -> chosenPattern = new AdapterDemo();
             case "22" -> chosenPattern = new BridgeDemo();
-            case "23" -> chosenPattern = new AbstractFactoryDemo();
+            case "23" -> chosenPattern = new CompositeDemo();
             case "24" -> chosenPattern = new AbstractFactoryDemo();
             case "25" -> chosenPattern = new AbstractFactoryDemo();
 
